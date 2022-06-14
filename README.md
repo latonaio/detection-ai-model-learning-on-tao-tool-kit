@@ -1,11 +1,11 @@
 # detection-ai-model-initial-learning-on-tao-tool-kit
-このレポジトリは、NVIDIA TAO Tool Kit において、2D画像検出系のAIモデルを初期学習するときの手順等を示したものです。
+このレポジトリは、NVIDIA TAO Tool Kit が デプロイされた一定能力を有する NVIDIA GPU サーバー 上 において、2D画像検出系のAIモデルを初期学習するときの手順等を示したものです。
 
 ## 手順
-1. ec2 instance 作成
+1. AWS EC2 instance 作成
     - distribution : NVIDIA Deep Learning AMI
-    - インスタンスタイプは p3系統でGPUを使用可能
-    - storage : 200GB程度が良い
+    - インスタンスタイプ：AWS の場合、p3系統以上 で GPUを使用可能
+    - storage : 200GB 以上
 
 1. インスタンスの初期設定
     - apt update が機能しないので下記を実行
