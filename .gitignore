@@ -48,3 +48,10 @@ Thumbs.db
 *.mov
 *.wmv
 
+
+/data/*/*
+!/data/*/.gitkeep
+/specs/tfrecords/*
+
+
+
